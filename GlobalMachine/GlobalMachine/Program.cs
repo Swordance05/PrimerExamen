@@ -189,25 +189,25 @@ namespace GlobalMachine
 
                         case 2:
 
-                            Console.WriteLine("Ingrese el sexo");
+                            Console.WriteLine("Ingrese el tipo del producto");
                             matriz[i].tipo = Console.ReadLine();
                             break;
 
                         case 3:
 
-                            Console.WriteLine("Ingrese la edad");
+                            Console.WriteLine("Ingrese la fecha de vencimiento");
                             matriz[i].fechavencimiento = Console.ReadLine();
                             break;
                         
                         case 4:
 
-                            Console.WriteLine("Ingrese la edad");
+                            Console.WriteLine("Ingrese el nombre del proveedor");
                             matriz[i].nombreproveedor = Console.ReadLine();
                             break;
                         
                         case 5:
 
-                            Console.WriteLine("Ingrese la edad");
+                            Console.WriteLine("Ingrese la posicion del producto");
                             matriz[i].posicion = int.Parse(Console.ReadLine());
                             break;
 
