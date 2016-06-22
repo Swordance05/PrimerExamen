@@ -131,7 +131,7 @@ namespace GlobalMachine
                 matriz[acumulador].posicion = int.Parse(Console.ReadLine());
 
                 Console.WriteLine("Ingrese el precio de producto");
-                matriz[acumulador].posicion = int.Parse(Console.ReadLine());
+                matriz[acumulador].precio = int.Parse(Console.ReadLine());
 
                 Console.WriteLine(matriz[acumulador].id + " " + matriz[acumulador].nombre + " " + matriz[acumulador].tipo + " " + matriz[acumulador].fechavencimiento + " " + matriz[acumulador].nombreproveedor + " " + matriz[acumulador].posicion + " " + matriz[acumulador].precio);
 
